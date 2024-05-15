@@ -1,0 +1,12 @@
+{
+  "resourceName": "s3a4d2b8ae",
+  "policyUUID": "a4d2b8ae",
+  "bucketName": "amptrareppra4ff76990bebc445f8430bb19f50c910d",
+  "storageAccess": "auth",
+  "guestAccess": [],
+  "authAccess": [
+    "CREATE_AND_UPDATE"
+  ],
+  "triggerFunction": "NONE",
+  "groupAccess": {}
+}
