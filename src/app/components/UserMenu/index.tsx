@@ -1,6 +1,6 @@
 'use client'
 
-import { Button, Flex, View, useAuthenticator, useTheme } from "@aws-amplify/ui-react";
+import { Text, Button, Flex, View, useAuthenticator, useTheme } from "@aws-amplify/ui-react";
 
 export default function UserMenu() {
   const theme = useTheme()
@@ -11,8 +11,8 @@ export default function UserMenu() {
       marginInline="auto">
       <Flex direction="row" alignItems="center">
         <View grow={1}>
-          {username}
-          {user.userId}
+          <Text fontSize={theme.tokens.fontSizes.small}>{username}</Text>
+          <Text fontSize={theme.tokens.fontSizes.xs}>{user.userId}</Text>
         </View>
         <View>
           <Button onClick={() => signOut()}>ログアウト</Button>
